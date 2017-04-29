@@ -15,6 +15,7 @@ var findUVIndex = function (req, res) {
   * Step1: Get the request and process it
   */
   console.log(req.body)
+  console.log(req.body.zipcode)
   res.json({ unIndex: 6.5, risk: "high", recommendation: "go out" })
 }
 
